@@ -1,1 +1,0 @@
-/home/christian-abinsula/.vim/
