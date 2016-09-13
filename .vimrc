@@ -29,6 +29,7 @@ Plugin 'L9'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
 call vundle#end()
 filetype plugin indent on
 " *********************
