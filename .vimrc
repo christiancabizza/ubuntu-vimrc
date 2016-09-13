@@ -31,6 +31,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
 " *********************
@@ -48,4 +49,9 @@ let g:UltiSnipsExpandTrigger       = "<c-j>"
 let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
 let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on current file
+" 
+" Nerdtree Configuration
+autocmd vimenter * NERDTree
+let NERDTreeShowHidden=1
+" *********************
 " *********************
