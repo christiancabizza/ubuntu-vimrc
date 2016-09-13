@@ -1,3 +1,7 @@
+" Colors Configuration
+syntax enable
+colorscheme distinguished
+" ********************
 " Indentation configuration
 set number
 set expandtab
@@ -54,4 +58,7 @@ let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on cu
 autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
 " *********************
+"
+" ColorScheme
+colorscheme default
 " *********************
