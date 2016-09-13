@@ -1,9 +1,9 @@
 " Indentation configuration
 set number
 set expandtab
-autocmd FileType python set sw=4
-autocmd FileType python set ts=4
-autocmd FileType python set sts=4
+set sw=4
+set ts=4
+set sts=4
 autocmd FileType python set textwidth=80
 set autoindent
 " *************************
