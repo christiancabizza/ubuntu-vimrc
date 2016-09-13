@@ -57,5 +57,5 @@ let NERDTreeShowHidden=1
 "
 " Colors Configuration
 syntax enable
-colorscheme darkblue
+colorscheme industry 
 " ********************
