@@ -1,7 +1,3 @@
-" Colors Configuration
-syntax enable
-colorscheme distinguished
-" ********************
 " Indentation configuration
 set number
 set expandtab
@@ -59,6 +55,7 @@ autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
 " *********************
 "
-" ColorScheme
-colorscheme default
-" *********************
+" Colors Configuration
+syntax enable
+colorscheme darkblue
+" ********************
