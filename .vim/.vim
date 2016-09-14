@@ -1,0 +1,1 @@
+/home/christian-abinsula/projects/vim-pydjango/.vim

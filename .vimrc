@@ -25,13 +25,19 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+" Files manager
+Plugin 'majutsushi/tagbar'
 Plugin 'L9'
+Plugin 'FuzzyFinder'
+Plugin 'vim-scripts/mru.vim'
+Plugin 'fholgado/minibufexpl.vim'
+Plugin 'scrooloose/nerdtree'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'scrooloose/nerdtree'
+
 call vundle#end()
 filetype plugin indent on
 " *********************
