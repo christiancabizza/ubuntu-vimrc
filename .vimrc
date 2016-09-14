@@ -53,6 +53,7 @@ let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on cu
 " Nerdtree Configuration
 autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
+nnoremap <F2> :NERDTreeToggle<cr>
 " *********************
 "
 " Colors Configuration
